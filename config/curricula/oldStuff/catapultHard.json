@@ -1,0 +1,14 @@
+{
+    "measure" : "reward",
+    "thresholds" : [8],
+    "min_lesson_length" : 2,
+    "signal_smoothing" : true, 
+    "parameters" : 
+    {
+        "AngleMin" : [80, 120],
+        "AngleMax" : [150, 140],
+        "PowerMin" : [0.2, 0.5],
+        "PowerMax" : [1, 0.9],
+        "Munitions" :[10,10]
+    }
+}

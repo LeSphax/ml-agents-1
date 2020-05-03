@@ -10,6 +10,8 @@
 /UnitySDK/Assets/Gizmos*
 /UnitySDK/Assets/Demonstrations*
 
+/Builds
+
 # Tensorflow Model Info
 /models
 /summaries
@@ -18,7 +20,7 @@
 /envs
 
 # Environemnt logfile
-*UnitySDK.log
+*.log
 
 # Visual Studio 2015 cache directory
 /UnitySDK/.vs/
@@ -59,9 +61,6 @@
 /UnitySDK/Assets/ML-Agents/Plugins/System.Numerics*
 /UnitySDK/Assets/ML-Agents/Plugins/System.ValueTuple*
 
-# Plugins
-/UnitySDK/Assets/ML-Agents/VideoRecorder*
-
 # Generated doc folders
 /docs/html
 
@@ -82,9 +81,6 @@
 
 # VSCode hidden files
 *.vscode/
-
-# PyCharm hidden files
-*.idea/
 
 .DS_Store
 .ipynb_checkpoints

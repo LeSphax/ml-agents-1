@@ -1,0 +1,13 @@
+{
+    "measure" : "reward",
+    "thresholds" : [6, 0.1],
+    "min_lesson_length" : 1000,
+    "signal_smoothing" : true, 
+    "parameters" : 
+    {
+        "reward_catch" : [1, 0, 0],
+        "reward_throw" : [1, 0, 0],
+        "done_goal" : [0, 1, 1],
+        "multiplayer" : [0, 0, 1]
+    }
+}

@@ -1,0 +1,30 @@
+default:
+    trainer: ppo
+    batch_size: 1024
+    beta: 5.0e-3
+    buffer_size: 10240
+    epsilon: 0.2
+    gamma: 0.99
+    hidden_units: 256
+    lambd: 0.95
+    learning_rate: 3.0e-4
+    max_steps: 5.0e7
+    memory_size: 128
+    normalize: false
+    num_epoch: 3
+    num_layers: 4
+    time_horizon: 64
+    sequence_length: 64
+    summary_freq: 1000
+    use_recurrent: false
+    use_curiosity: false
+    curiosity_strength: 0.01
+    curiosity_enc_size: 128
+    use_elo_rating: True
+
+Ghost:
+    trainer: ghost
+    ghost_master_brain: Brain
+    ghost_num_policies: 3
+    ghost_recent_ckpts_threshold: 10
+    ghost_prob_sample_only_recent: 0.5

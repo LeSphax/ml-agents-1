@@ -1,0 +1,8 @@
+{
+    "measure": "reward",
+    "thresholds": [],
+    "min_lesson_length": 300,
+    "signal_smoothing": true,
+    "parameters": {
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "measure" : "reward",
+    "thresholds" : [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+    "min_lesson_length" : 2,
+    "signal_smoothing" : true, 
+    "parameters" : 
+    {
+        "min_angle" : [0, 0, 0, 30, 60, 90, 100, 120],
+        "max_angle" : [270, 180, 150, 150, 150, 150, 130, 130]
+    }
+}
